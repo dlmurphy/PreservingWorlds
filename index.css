@@ -1,4 +1,47 @@
-body{
-  background-image: url("/images/background.png");
-  background-repeat: repeat;
+html {
+
+height:100%;
+
 }
+
+body{
+  background-image: url("images/bgs/spacebackground.gif");
+  background-repeat: repeat;
+  height:100%;
+}
+
+
+#main {
+
+
+
+position: relative;
+left:25%;
+top:20%;
+
+width: 1000px;
+
+
+
+font-size: 30px;
+color: white;
+font-weight: bold;
+font-family: 'Roboto', sans-serif;
+
+
+background-image: url("images/bgs/bgpinetrees.gif");
+background-repeat: repeat;
+
+border-style: groove;
+border-color: purple;
+border-width: 4px;
+
+}
+
+.header {
+  display: flex;
+  justify-content: center; 
+  font-size: 70px;
+  font-family: 'Righteous', cursive;
+}
+
