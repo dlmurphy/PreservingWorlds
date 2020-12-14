@@ -12,18 +12,12 @@ body{
 
 
 #main {
-
-
-
 position: absolute;
 left:25%;
 top:20%;
 right:25%;
-
 width:50%;
 height:auto;
-
-
 
 font-size: 2.5vmin;
 color: white;
@@ -41,21 +35,22 @@ border-width: 4px;
 }
 
 .header {
+  width:100%;
   display: flex;
   align-items: center;
   justify-content: center;
-
   font-size: 6vmin;
   font-family: 'Righteous', cursive;
   
 
 }
 
-.responsive {
+.header img {
   max-width:100%;
   min-width: 0;
   width: auto;
   height:auto;
+  object-fit: scale-down;
 }
 
 .flexchildtext {
