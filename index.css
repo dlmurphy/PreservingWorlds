@@ -18,9 +18,9 @@ body{
 position: absolute;
 left:25%;
 top:20%;
-right: 25%;
+right:25%;
 
-width: 50%;
+width:50%;
 height:auto;
 
 
@@ -54,7 +54,7 @@ border-width: 4px;
 .responsive {
   max-width:100%;
   min-width: 0;
-  
+  width: auto;
   height:auto;
 }
 
