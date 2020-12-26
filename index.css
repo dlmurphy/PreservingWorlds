@@ -14,10 +14,31 @@ a {
   color: cyan;
 }
 
+#logo {
+  
+}
+
+.logoflex {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoflex img {
+  max-width: 100%;
+  min-width: 0%;
+  width: auto;
+  height: auto;
+  object-fit: scale-down;
+
+}
+
+
 #navbar {
   position: absolute;
-  left: 7%;
-  top: 24%;
+  left: 8.6%;
+  top: 35%;
   width: 85%;
   height: auto;
   /*background-color: red;*/
@@ -27,7 +48,7 @@ a {
 #main {
 position: absolute;
 left:15%;
-top:30%;
+top:41%;
 right:15%;
 width:70%;
 height:auto;
@@ -41,9 +62,15 @@ text-shadow: 3px 3px 2px black;
 background-image: url("images/bgs/bgpinetrees.gif");
 background-repeat: repeat;
 
-border-style: groove;
+/*border-style: groove;
 border-color: purple;
-border-width: 4px;
+border-width: 4px; */
+border: 25px solid;
+border-image-source: url("images/border-image.png");
+border-image-slice: 16% 26% 16% 26%;
+border-image-width: 3.5%;
+border-image-repeat: round;
+
 
 }
 
