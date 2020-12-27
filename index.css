@@ -50,6 +50,24 @@ a {
   height: auto;
 }
 
+#navbarflex {
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 -1%;
+}
+
+#navbarflex * {
+max-width: 22vmin;
+min-width: 0;
+width: auto;
+height: auto;
+object-fit: scale-down;
+margin: 0 1%;
+
+}
+
 #main {
   position: absolute;
   left:15%;
@@ -81,7 +99,7 @@ a {
   margin-right: 3%;
 }
 
-.header {
+.headerflex {
   width:100%;
   display: flex;
   align-items: center;
@@ -90,7 +108,7 @@ a {
   font-family: 'Righteous', cursive;
 }
 
-.header img {
+.headerflex img {
   max-width: 20vmin;
   min-width: 0;
   width: auto;
