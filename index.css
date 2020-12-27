@@ -119,3 +119,18 @@ a {
 .flexchildtext {
   text-align: center;
 }
+
+.footerflex {
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerflex img {
+  max-width: 70vmin;
+  min-width: 0;
+  width: auto;
+  height: auto;
+  object-fit: scale-down;
+}
