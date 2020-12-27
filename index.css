@@ -4,6 +4,10 @@ height:100%;
 
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body{
   background-image: url("images/bgs/spacebackground.gif");
   background-repeat: repeat;
@@ -15,7 +19,12 @@ a {
 }
 
 #logo {
-
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  top: 1%;
+  width: 70%;
+  height: auto;
 }
 
 .logoflex {
@@ -26,7 +35,7 @@ a {
 }
 
 .logoflex img {
-  max-width: 100%;
+  max-width: 60vmin;
   min-width: 0%;
   width: auto;
   height: auto;
@@ -41,9 +50,9 @@ a {
   top: 35%;
   width: 85%;
   height: auto;
-  /*background-color: red;*/
-
 }
+
+
 
 #main {
 position: absolute;
@@ -86,15 +95,13 @@ border-image-repeat: round;
   justify-content: center;
   font-size: 6vmin;
   font-family: 'Righteous', cursive;
-  
-
 }
 
 .header img {
-  max-width:100%;
+  max-width: 20vmin;
   min-width: 0;
   width: auto;
-  height:auto;
+  height: auto;
   object-fit: scale-down;
 }
 
