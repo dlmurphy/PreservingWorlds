@@ -19,9 +19,8 @@ a {
 }
 
 #logo {
-  position: absolute;
+  position: relative;
   left: 15%;
-  right: 15%;
   top: 1%;
   width: 70%;
   height: auto;
@@ -32,7 +31,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 -1%;
+
 }
 
 .logoflex img {
@@ -40,14 +39,25 @@ a {
   width: auto;
   height: auto;
   object-fit: scale-down;
-  margin: 0 6%;
+
+}
+
+.leftportrait{
+  max-width: 20vmin; 
+  margin-right: 5%;
+}
+
+.rightportrait{
+  max-width: 20vmin; 
+  transform: scaleX(-1); 
+  margin-left: 5%;
 }
 
 #navbar {
-  position: absolute;
+  position: relative;
   left: 7.5%;
   right: 7.5%;
-  top: 38%;
+  top: 3%;
   width: 85%;
   height: auto;
 }
@@ -57,10 +67,12 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   margin: 0 -1%;
 }
 
-#navbarflex * {
+
+#navbarflex img {
   max-width: 30vmin;
   min-width: 0;
   width: auto;
@@ -70,9 +82,9 @@ a {
 }
 
 #main {
-  position: absolute;
+  position: relative;
   left:15%;
-  top:49%;
+  top:4%;
   right:15%;
   width:70%;
   height:auto;
@@ -98,6 +110,13 @@ a {
 #main p {
   margin-left: 3%;
   margin-right: 3%;
+}
+
+#main h2 {
+  margin-left: 3%;
+  margin-right: 3%;
+  text-align: center;
+  font-family: 'Righteous', cursive;
 }
 
 .headerflex {
@@ -136,10 +155,9 @@ a {
   object-fit: scale-down;
 }
 
-/*
 #footer{
-  position: absolute;
-  bottom: -25%;
+  position: relative;
+  top: 6%;
   left:15%;
   right:15%;
   width:70%;
@@ -149,8 +167,11 @@ a {
   color: white;
   font-family: 'Roboto', sans-serif;
   text-shadow: 3px 3px 2px black;
+
+  padding-bottom: 1%;
+
 }
-*/
+
 .footerflex {
   width:100%;
   display: flex;
@@ -161,6 +182,7 @@ a {
 .footerflex img {
   max-width: 30vmin;
   min-width: 0;
+  margin-left: 3%;
   width: auto;
   height: auto;
   object-fit: scale-down;
