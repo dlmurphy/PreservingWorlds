@@ -122,6 +122,20 @@ a {
   margin-right: 3%;
 }
 
+.generiflex {
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.generiflex img {
+  min-width: 0;
+  width: auto;
+  height: auto;
+  object-fit: scale-down;
+}
+
 .headerflex {
   width:100%;
   display: flex;
