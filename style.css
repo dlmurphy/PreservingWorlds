@@ -119,6 +119,11 @@ a {
   font-family: 'Righteous', cursive;
 }
 
+#main li{
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
 .headerflex {
   width:100%;
   display: flex;
