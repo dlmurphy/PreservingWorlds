@@ -101,7 +101,7 @@ a {
   border: 25px solid;
   border-image-source: url("images/border-200px-large.png");
   border-image-slice: 16% 26% 16% 26%;
-  border-image-width: 3.5%;
+  border-image-width: 25px;
   border-image-repeat: round;
 }
 
