@@ -204,3 +204,7 @@ a {
   height: auto;
   object-fit: scale-down;
 }
+
+li {
+  margin-top: 1.75%;
+}
